@@ -1,0 +1,360 @@
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17.6 kB]
+Get:12 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41.5 kB]
+Get:13 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [23.8 kB]
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [6,528 B]
+Get:15 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [617 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [303 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [307 kB]
+Get:18 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [649 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73.8 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [140 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [32.9 kB]
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [218 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [8,468 B]
+Get:24 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,054 kB]
+Get:25 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42.0 kB]
+Get:26 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]
+Get:27 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [116 kB]
+Get:28 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [6,760 B]
+Get:29 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2,700 B]
+Get:30 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+Get:31 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1,010 kB]
+Get:32 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [326 kB]
+Get:33 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [264 kB]
+Get:34 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [201 kB]
+Get:35 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [447 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [10.1 kB]
+Get:37 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [4,636 B]
+Get:38 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+Get:39 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4,028 B]
+Get:40 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4,028 B]
+Get:41 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,980 B]
+Fetched 9,078 kB in 6min 13s (24.4 kB/s)                                      
+Reading package lists... Done
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ sudo apt-get upgrade
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ sudo apt-get autoclean
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Del libwebkit2gtk-4.0-37 2.26.2-0ubuntu0.18.04.1 [11.7 MB]
+Del ubuntu-release-upgrader-gtk 1:18.04.36 [9,376 B]
+Del gnome-control-center-faces 1:3.28.2-0ubuntu0.18.04.5 [819 kB]
+Del systemd-sysv 237-3ubuntu10.33 [12.5 kB]
+Del e2fsprogs 1.44.1-1ubuntu1.2 [390 kB]
+Del libegl1-mesa 19.2.1-1ubuntu1~18.04.1 [6,828 B]
+Del libqt5widgets5 5.9.5+dfsg-0ubuntu2.4 [2,205 kB]
+Del libfdisk1 2.31.1-0.4ubuntu3.4 [164 kB]
+Del libpam-systemd 237-3ubuntu10.33 [108 kB]
+Del libext2fs2 1.44.1-1ubuntu1.2 [157 kB]
+Del firefox-locale-en 73.0+build3-0ubuntu0.18.04.1 [721 kB]
+Del libsystemd0 237-3ubuntu10.33 [205 kB]
+Del sudo 1.8.21p2-3ubuntu1.1 [428 kB]
+Del libglx-mesa0 19.2.1-1ubuntu1~18.04.1 [139 kB]
+Del libsmartcols1 2.31.1-0.4ubuntu3.4 [83.7 kB]
+Del gnome-control-center-data 1:3.28.2-0ubuntu0.18.04.5 [507 kB]
+Del libqt5network5 5.9.5+dfsg-0ubuntu2.4 [634 kB]
+Del libegl-mesa0 19.2.1-1ubuntu1~18.04.1 [95.2 kB]
+Del libdrm-nouveau2 2.4.99-1ubuntu1~18.04.1 [16.5 kB]
+Del bluez 5.48-0ubuntu3.2 [948 kB]
+Del libuuid1 2.31.1-0.4ubuntu3.4 [20.0 kB]
+Del bluez-cups 5.48-0ubuntu3.2 [63.8 kB]
+Del util-linux 2.31.1-0.4ubuntu3.4 [902 kB]
+Del libgbm1 19.2.1-1ubuntu1~18.04.1 [28.1 kB]
+Del libdrm-intel1 2.4.99-1ubuntu1~18.04.1 [59.9 kB]
+Del qt5-gtk-platformtheme 5.9.5+dfsg-0ubuntu2.4 [117 kB]
+Del libqt5gui5 5.9.5+dfsg-0ubuntu2.4 [2,569 kB]
+Del libcom-err2 1.44.1-1ubuntu1.2 [8,912 B]
+Del libnss-systemd 237-3ubuntu10.33 [106 kB]
+Del uuid-runtime 2.31.1-0.4ubuntu3.4 [34.8 kB]
+Del libwebkit2gtk-4.0-37 2.26.3-0ubuntu0.18.04.1 [11.7 MB]
+Del libss2 1.44.1-1ubuntu1.2 [11.1 kB]
+Del mount 2.31.1-0.4ubuntu3.4 [107 kB]
+Del libudev1 237-3ubuntu10.33 [54.6 kB]
+Del gir1.2-javascriptcoregtk-4.0 2.26.3-0ubuntu0.18.04.1 [22.0 kB]
+Del libdrm-common 2.4.99-1ubuntu1~18.04.1 [5,264 B]
+Del libgnutls30 3.5.18-1ubuntu1.2 [645 kB]
+Del udev 237-3ubuntu10.33 [1,102 kB]
+Del libjavascriptcoregtk-4.0-18 2.26.3-0ubuntu0.18.04.1 [4,988 kB]
+Del fdisk 2.31.1-0.4ubuntu3.4 [108 kB]
+Del libjavascriptcoregtk-4.0-18 2.26.2-0ubuntu0.18.04.1 [4,987 kB]
+Del python3-distupgrade 1:18.04.36 [107 kB]
+Del gir1.2-javascriptcoregtk-4.0 2.26.2-0ubuntu0.18.04.1 [22.0 kB]
+Del libqt5core5a 5.9.5+dfsg-0ubuntu2.4 [2,036 kB]
+Del gir1.2-webkit2-4.0 2.26.3-0ubuntu0.18.04.1 [69.3 kB]
+Del ubuntu-release-upgrader-core 1:18.04.36 [25.4 kB]
+Del libwayland-egl1-mesa 19.2.1-1ubuntu1~18.04.1 [6,844 B]
+Del libglapi-mesa 19.2.1-1ubuntu1~18.04.1 [26.5 kB]
+Del gnome-control-center 1:3.28.2-0ubuntu0.18.04.5 [1,629 kB]
+Del libmount1 2.31.1-0.4ubuntu3.4 [136 kB]
+Del bluez-obexd 5.48-0ubuntu3.2 [167 kB]
+Del libqt5dbus5 5.9.5+dfsg-0ubuntu2.4 [196 kB]
+Del libdrm2 2.4.99-1ubuntu1~18.04.1 [31.7 kB]
+Del libgl1-mesa-glx 19.2.1-1ubuntu1~18.04.1 [5,524 B]
+Del base-files 10.1ubuntu2.7 [60.3 kB]
+Del bsdutils 1:2.31.1-0.4ubuntu3.4 [60.3 kB]
+Del libnss-myhostname 237-3ubuntu10.33 [34.9 kB]
+Del firefox 73.0+build3-0ubuntu0.18.04.1 [51.8 MB]
+Del systemd 237-3ubuntu10.33 [2,905 kB]
+Del libdrm-amdgpu1 2.4.99-1ubuntu1~18.04.1 [18.2 kB]
+Del libdrm-radeon1 2.4.99-1ubuntu1~18.04.1 [21.7 kB]
+Del libbluetooth3 5.48-0ubuntu3.2 [64.0 kB]
+Del libblkid1 2.31.1-0.4ubuntu3.4 [124 kB]
+Del libarchive13 3.2.2-3.1ubuntu0.5 [288 kB]
+Del gir1.2-webkit2-4.0 2.26.2-0ubuntu0.18.04.1 [69.2 kB]
+Del firefox 72.0.1+build1-0ubuntu0.18.04.1 [37.5 MB]
+Del linux-firmware 1.173.14 [21.5 MB]
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ dpkg -i apache2
+dpkg: error: requested operation requires superuser privilege
+ganesh@ubuntu:~$ sudo apt-get clean
+ganesh@ubuntu:~$ sudo apt-get update
+Hit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease             
+Hit:2 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:4 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists... Done
+ganesh@ubuntu:~$ sudo apt-get upgrade
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ apt-get upgrade
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ ^C
+ganesh@ubuntu:~$ sudo lsof /var/lib/dpkg/lock
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+COMMAND    PID USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
+unattende 1776 root    6uW  REG    8,1        0 534669 /var/lib/dpkg/lock
+ganesh@ubuntu:~$ ps aux | grep -i apt
+root       1029  0.0  0.0   4624   784 ?        Ss   21:38   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root       1034  0.0  0.0   4624  1716 ?        S    21:38   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+_apt       2180  0.4  0.3  96868  7240 ?        S    21:49   0:10 /usr/lib/apt/methods/http
+_apt       2181  0.4  0.3  96868  7080 ?        S    21:49   0:10 /usr/lib/apt/methods/http
+ganesh     2946  0.0  0.0  21532  1024 pts/0    S+   22:32   0:00 grep --color=auto -i apt
+ganesh@ubuntu:~$ sudo kill <process_id>
+bash: syntax error near unexpected token `newline'
+ganesh@ubuntu:~$ sudo apt install grub-customizer 
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+ganesh@ubuntu:~$ sudo lsof /var/lib/dpkg/lock-frontend
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+COMMAND    PID USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
+unattende 1776 root    5uW  REG    8,1        0 534670 /var/lib/dpkg/lock-frontend
+ganesh@ubuntu:~$ sudo kill -9 PID
+kill: failed to parse argument: 'PID'
+ganesh@ubuntu:~$ sudo rm /var/lib/dpkg/lock-frontend
+ganesh@ubuntu:~$ sudo dpkg --configure -a
+dpkg: error: dpkg status database is locked by another process
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+ganesh@ubuntu:~$ sudo kill -9 PID
+kill: failed to parse argument: 'PID'
+ganesh@ubuntu:~$ ps aux | grep -i apt
+root       1029  0.0  0.0   4624   784 ?        Ss   21:38   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root       1034  0.0  0.0   4624  1716 ?        S    21:38   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+_apt       2180  0.4  0.3  96868  7240 ?        S    21:49   0:11 /usr/lib/apt/methods/http
+_apt       2181  0.4  0.3  96868  7080 ?        S    21:49   0:11 /usr/lib/apt/methods/http
+ganesh     2977  0.0  0.0  21532  1140 pts/0    S+   22:36   0:00 grep --color=auto -i apt
+ganesh@ubuntu:~$ sudo kill <process_id>
+bash: syntax error near unexpected token `newline'
+ganesh@ubuntu:~$ sudo killall apt apt-get
+apt: no process found
+apt-get: no process found
+ganesh@ubuntu:~$ sudo rm /var/lib/apt/lists/lock
+ganesh@ubuntu:~$ sudo apt-get install apache2
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+ganesh@ubuntu:~$ sudo lsof /var/lib/dpkg/lock
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+COMMAND    PID USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
+unattende 1776 root    6uW  REG    8,1        0 534669 /var/lib/dpkg/lock
+ganesh@ubuntu:~$ sudo kill -9 1776
+ganesh@ubuntu:~$ sudo rm /var/lib/dpkg/lock
+ganesh@ubuntu:~$ sudo rm /var/cache/apt/archives/lock
+ganesh@ubuntu:~$ sudo dpkg --configure -a
+dpkg: error: dpkg frontend is locked by another process
+ganesh@ubuntu:~$ sudo rm /var/lib/dpkg/lock-frontend
+ganesh@ubuntu:~$ sudo lsof /var/lib/dpkg/lock-frontend
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+lsof: status error on /var/lib/dpkg/lock-frontend: No such file or directory
+lsof 4.89
+ latest revision: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/
+ latest FAQ: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/FAQ
+ latest man page: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_man
+ usage: [-?abhKlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-E] [+|-e s] [+|-f[gG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+m [m]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Use the ``-h'' option to get more help information.
+ganesh@ubuntu:~$ sudo apt-get install apache2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libreadline5
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 297 not upgraded.
+Need to get 1,712 kB of archives.
+After this operation, 6,921 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.12 [1,071 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.12 [83.5 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.12 [160 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.12 [95.1 kB]
+Fetched 1,712 kB in 44s (38.6 kB/s)                                           
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 126709 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.12_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.12) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Setting up apache2-data (2.4.29-1ubuntu4.12) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Processing triggers for systemd (237-3ubuntu10.24) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.12) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.12) ...
+Setting up apache2 (2.4.29-1ubuntu4.12) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Processing triggers for systemd (237-3ubuntu10.24) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+ganesh@ubuntu:~$ sudo service apache2 start
+ganesh@ubuntu:~$ cd /var/www
+ganesh@ubuntu:/var/www$ chmod 777 html
+chmod: changing permissions of 'html': Operation not permitted
+ganesh@ubuntu:/var/www$ cd..
+cd..: command not found
+ganesh@ubuntu:/var/www$ cd ..
+ganesh@ubuntu:/var$ chmod 777 html
+chmod: cannot access 'html': No such file or directory
+ganesh@ubuntu:/var$ cd www
+ganesh@ubuntu:/var/www$ cd html
+ganesh@ubuntu:/var/www/html$ chmod 777 html
+chmod: cannot access 'html': No such file or directory
+ganesh@ubuntu:/var/www/html$ cd ..
+ganesh@ubuntu:/var/www$ chmod 777 html
+chmod: changing permissions of 'html': Operation not permitted
+ganesh@ubuntu:/var/www$ sudo chmod 777 html
+ganesh@ubuntu:/var/www$ cd html
+ganesh@ubuntu:/var/www/html$ mkdir htmldir
+ganesh@ubuntu:/var/www/html$ cd htmldir
+ganesh@ubuntu:/var/www/html/htmldir$ gedit signup.html
+ganesh@ubuntu:/var/www/html/htmldir$ gedit signup.html
+ganesh@ubuntu:/var/www/html/htmldir$ cd/etc/apache2
+bash: cd/etc/apache2: No such file or directory
+ganesh@ubuntu:/var/www/html/htmldir$ sudo cd/etc/apache2
+sudo: cd/etc/apache2: command not found
+ganesh@ubuntu:/var/www/html/htmldir$ cd /etc/apache2
+ganesh@ubuntu:/etc/apache2$ ls
+apache2.conf    conf-enabled  magic           mods-enabled  sites-available
+conf-available  envvars       mods-available  ports.conf    sites-enabled
+ganesh@ubuntu:/etc/apache2$ /sites-available
+bash: /sites-available: No such file or directory
+ganesh@ubuntu:/etc/apache2$ cd sites-available
+ganesh@ubuntu:/etc/apache2/sites-available$ ls
+000-default.conf  default-ssl.conf
+ganesh@ubuntu:/etc/apache2/sites-available$ gedit 000-default.conf
+ganesh@ubuntu:/etc/apache2/sites-available$ cd
+ganesh@ubuntu:~$ service apache2 restart
+ganesh@ubuntu:~$ gedit 000-default.conf
+ganesh@ubuntu:~$ gedit 000-default.conf
+ganesh@ubuntu:~$ cd /etc/apache2/sites-available
+ganesh@ubuntu:/etc/apache2/sites-available$ gedit 000-default.conf
+^Z
+[1]+  Stopped                 gedit 000-default.conf
+ganesh@ubuntu:/etc/apache2/sites-available$ chmod 777 000-default.conf
+chmod: changing permissions of '000-default.conf': Operation not permitted
+ganesh@ubuntu:/etc/apache2/sites-available$ sudo chmod 777 000-default.conf
+[sudo] password for ganesh: 
+ganesh@ubuntu:/etc/apache2/sites-available$ gedit 000-default.conf
+Failed to register: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+[1]+  Killed                  gedit 000-default.conf
+ganesh@ubuntu:/etc/apache2/sites-available$ gedit 000-default.conf
+ganesh@ubuntu:/etc/apache2/sites-available$ cd
+ganesh@ubuntu:~$ 
